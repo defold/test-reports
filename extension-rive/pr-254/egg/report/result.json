@@ -1,8 +1,0 @@
-{
-  "metric": "RMSE",
-  "raw_output": "31078 (0.474219)",
-  "normalized_difference": 0.474219,
-  "likeness_percent": 52.578100000000006,
-  "diff_image_name": "diff-egg.png",
-  "status": "fail"
-}
