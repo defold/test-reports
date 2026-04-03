@@ -1,0 +1,24 @@
+{
+  "mode": "direct",
+  "test_name": "Grimley",
+  "collection": "/main/grimley/grimley.collectionc",
+  "browser": "chrome",
+  "browser_executable": "/usr/bin/google-chrome",
+  "url": "http://127.0.0.1:18080/?key=bootstrap.main_collection&value=%2Fmain%2Fgrimley%2Fgrimley.collectionc",
+  "screenshot_path": "/home/runner/work/extension-rive/extension-rive/build/render-test/grimley/report/grimley.png",
+  "expected_screenshot_path": "/home/runner/work/extension-rive/extension-rive/./ci/tests/html5/expected/grimley.png",
+  "captured_at": "2026-04-03T15:32:32.420Z",
+  "settle_ms": 500,
+  "startup_timeout_ms": 30000,
+  "likeness_threshold": 95,
+  "engine_start_requested_at": 1775230349488,
+  "engine_start_succeeded_at": 1775230349620,
+  "engine_start_duration_ms": 132,
+  "canvas": {
+    "x": 37.328125,
+    "y": 0,
+    "width": 885.328125,
+    "height": 498.171875,
+    "scale": 1
+  }
+}
