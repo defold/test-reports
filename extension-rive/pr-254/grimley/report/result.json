@@ -1,8 +1,8 @@
 {
   "metric": "RMSE",
-  "raw_output": "7179.37 (0.10955)",
-  "normalized_difference": 0.10955,
-  "likeness_percent": 89.045,
+  "raw_output": "2495.31 (0.038076)",
+  "normalized_difference": 0.038076,
+  "likeness_percent": 96.1924,
   "diff_image_name": "diff-grimley.png",
-  "status": "fail"
+  "status": "pass"
 }
