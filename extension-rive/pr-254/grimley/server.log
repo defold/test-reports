@@ -1,0 +1,26 @@
+127.0.0.1 - - [03/Apr/2026 21:23:52] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:52] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /?key=bootstrap.main_collection&value=%2Fmain%2Fgrimley%2Fgrimley.collectionc HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /dmloader.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /archive/archive_files.json HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /extensionrive_wasm.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /archive/game0.projectc HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] code 404, message File not found
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /extensionrive_wasm.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /?key=bootstrap.main_collection&value=%2Fmain%2Fgrimley%2Fgrimley.collectionc HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2026 21:23:58] "GET /archive/game0.arci HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /dmloader.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/archive_files.json HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /extensionrive_wasm.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game0.projectc HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game0.arci HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game0.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game3.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game1.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game5.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game2.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game4.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /extensionrive.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game0.dmanifest HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2026 21:23:59] "GET /archive/game0.public.der HTTP/1.1" 200 -
