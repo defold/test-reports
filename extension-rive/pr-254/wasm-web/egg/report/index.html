@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Render Test Report</title>
+  <style>
+    body {
+      margin: 24px;
+      font-family: Menlo, Monaco, Consolas, monospace;
+      background: #101418;
+      color: #d7e0ea;
+    }
+    h1, h2 {
+      font-weight: 600;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+      margin-top: 24px;
+    }
+    .panel {
+      background: #182028;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .result-summary {
+      margin-top: 24px;
+    }
+    .title-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .title-row h1 {
+      margin: 0;
+    }
+    .platform-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0;
+      padding: 6px 10px;
+      border-radius: 8px;
+      background: #223040;
+      border: 1px solid #39506b;
+      color: #c7d7e6;
+      font-size: 12px;
+      font-weight: 600;
+      flex: 0 0 auto;
+    }
+    .inline-icon {
+      width: 16px;
+      height: 16px;
+      display: block;
+    }
+    .platform-text {
+      line-height: 1.2;
+    }
+    .likeness-line {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .likeness-status.pass {
+      color: #7ee787;
+    }
+    .likeness-status.fail {
+      color: #ff7b72;
+    }
+    .result-detail {
+      margin: 3px 0;
+      color: #b9c7d5;
+    }
+    .result-details-body {
+      padding: 10px 12px;
+    }
+    .result-details-body .meta {
+      margin-bottom: 8px;
+    }
+    .meta {
+      white-space: pre-wrap;
+      background: #182028;
+      border-radius: 8px;
+      padding: 10px 12px;
+      line-height: 1.3;
+    }
+    details {
+      margin-top: 24px;
+      margin-bottom: 24px;
+      background: #182028;
+      border-radius: 8px;
+      padding: 0;
+      overflow: hidden;
+    }
+    summary, .summary {
+      cursor: pointer;
+      padding: 10px 14px;
+      font-weight: 600;
+      user-select: none;
+      font-size: small;
+    }
+    details[open] summary {
+      border-bottom: 1px solid #2b3947;
+    }
+    details .meta {
+      margin: 0;
+      border-radius: 0;
+      background: transparent;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #2b3947;
+      background: #0b0f13;
+    }
+    .result-summary {
+      font-size: small;
+      margin-top: 16px;
+      padding: 0;
+      overflow: hidden;
+    }
+    .result-summary[open] .result-summary-summary {
+      border-bottom: 1px solid #2b3947;
+    }
+    .result-summary-summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      padding: 10px 12px;
+      user-select: none;
+      font-size: small;
+      font-weight: 600;
+    }
+    .result-summary-summary::-webkit-details-marker {
+      display: none;
+    }
+    .summary-arrow {
+      display: inline-block;
+      flex: 0 0 auto;
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 7px solid #c7d7e6;
+      vertical-align: middle;
+      transform: translateY(-1px);
+      transition: transform 120ms ease;
+    }
+    .likeness-line {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 8px;
+      min-width: 0;
+    }
+    .result-summary[open] .summary-arrow {
+      transform: translateY(-1px) rotate(90deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="title-row">
+    <h1>Egg</h1>
+    <div class="platform-row"><svg class="inline-icon" width="16" height="16" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>HTML5 Logo</title>
+  
+  <polygon fill="#E44D26" points="107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 255.778,512 			"/>
+  <polygon fill="#F16529" points="256,480.523 376.03,447.246 404.27,130.894 256,130.894 			"/>
+  <polygon fill="#EBEBEB" points="256,268.217 195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 256,313.627"/>
+  <polygon fill="#EBEBEB" points="256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 256,433.399"/>
+  <path d="M108.382,0h23.077v22.8h21.11V0h23.078v69.044H152.57v-23.12h-21.11v23.12h-23.077V0z"/>
+  <path d="M205.994,22.896h-20.316V0h63.72v22.896h-20.325v46.148h-23.078V22.896z"/>
+  <path d="M259.511,0h24.063l14.802,24.26L313.163,0h24.072v69.044h-22.982V34.822l-15.877,24.549h-0.397l-15.888-24.549v34.222h-22.58V0z"/>
+  <path d="M348.72,0h23.084v46.222h32.453v22.822H348.72V0z"/>
+  <polygon fill="#FFFFFF" points="255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217"/>
+  <polygon fill="#FFFFFF" points="255.843,176.305 255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305"/>
+</svg><span class="platform-text">Platform: <strong>wasm-web</strong></span></div>
+  </div>
+  <details>
+    <summary>Test Info</summary>
+    <div class="meta">{
+  &quot;mode&quot;: &quot;direct&quot;,
+  &quot;test_name&quot;: &quot;Egg&quot;,
+  &quot;test_group&quot;: &quot;egg&quot;,
+  &quot;collection&quot;: &quot;/main/egg/egg.collectionc&quot;,
+  &quot;platform&quot;: &quot;wasm-web&quot;,
+  &quot;description&quot;: &quot;THis is a test of the feathering feature.&quot;,
+  &quot;browser&quot;: &quot;chrome&quot;,
+  &quot;browser_executable&quot;: &quot;/usr/bin/google-chrome&quot;,
+  &quot;url&quot;: &quot;http://127.0.0.1:54233/?key=bootstrap.main_collection&amp;value=%2Fmain%2Fegg%2Fegg.collectionc&quot;,
+  &quot;wait_mode&quot;: &quot;timeout&quot;,
+  &quot;screenshot_path&quot;: &quot;/home/runner/work/extension-rive/extension-rive/build/render-tests/wasm-web/egg/report/screenshot.png&quot;,
+  &quot;captured_at&quot;: &quot;2026-04-04T10:10:06.000Z&quot;,
+  &quot;settle_ms&quot;: 500,
+  &quot;startup_timeout_ms&quot;: 30000,
+  &quot;engine_start_requested_at&quot;: 1775297404566,
+  &quot;engine_first_update_at&quot;: null,
+  &quot;engine_take_screenshot_at&quot;: null,
+  &quot;engine_start_succeeded_at&quot;: 1775297404687,
+  &quot;engine_start_duration_ms&quot;: 121,
+  &quot;canvas&quot;: {
+    &quot;x&quot;: 37.328125,
+    &quot;y&quot;: 0,
+    &quot;width&quot;: 885.328125,
+    &quot;height&quot;: 498.171875,
+    &quot;scale&quot;: 1
+  }
+}</div>
+  </details>
+  <details class="panel result-summary">
+    <summary class="result-summary-summary"><span class="summary-arrow" aria-hidden="true"></span><span class="likeness-line"><span class="likeness-value">99.15%</span> <span class="likeness-label">Likeness</span> <span class="likeness-status pass">✅ PASS</span></span></summary>
+    
+      <div class="result-details-body">
+        <p class="result-detail">Threshold: 95.00%</p>
+        <p class="result-detail">Metric: RMSE</p>
+        <p class="result-detail">Normalized difference: 0.008462</p>
+        <div class="meta">{
+  &quot;metric&quot;: &quot;RMSE&quot;,
+  &quot;raw_output&quot;: &quot;554.554 (0.00846195)&quot;,
+  &quot;normalized_difference&quot;: 0.00846195,
+  &quot;likeness_percent&quot;: 99.15380499999999,
+  &quot;diff_image_name&quot;: &quot;diff.png&quot;,
+  &quot;status&quot;: &quot;pass&quot;,
+  &quot;likeness_threshold&quot;: 95.0
+}</div>
+        <img src="diff.png" alt="Difference image from ImageMagick compare">
+      </div>
+    
+  </details>
+  <div class="grid">
+    <section class="panel">
+      <h2>Captured:</h2>
+      <img src="screenshot.png" alt="Render test result screenshot">
+    </section>
+    <section class="panel">
+      <h2>Expected:</h2>
+      <img src="expected.png" alt="Expected render screenshot">
+    </section>
+  </div>
+</body>
+</html>
