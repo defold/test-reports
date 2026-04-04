@@ -3,6 +3,7 @@
   "raw_output": "2495.31 (0.038076)",
   "normalized_difference": 0.038076,
   "likeness_percent": 96.1924,
-  "diff_image_name": "diff-grimley.png",
-  "status": "pass"
+  "diff_image_name": "diff.png",
+  "status": "pass",
+  "likeness_threshold": 95.0
 }
