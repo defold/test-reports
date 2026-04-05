@@ -1,12 +1,12 @@
 {
   "metric": "RMSE",
-  "raw_output": "27981 (0.426962)",
-  "normalized_difference": 0.426962,
-  "likeness_percent": 57.303799999999995,
+  "raw_output": "55997.2 (0.854462)",
+  "normalized_difference": 0.854462,
+  "likeness_percent": 14.553799999999995,
   "diff_image_name": "diff.png",
   "status": "fail",
   "likeness_threshold": 95.0,
   "crash_detected": true,
-  "crash_signature": "04-05 12:54:24.308  4289  4326 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 4326 (looper_main), pid 4289 (d.extensionrive)",
+  "crash_signature": "04-05 13:28:46.520  4908  4940 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 4940 (looper_main), pid 4908 (d.extensionrive)",
   "crash_log_path": "/home/runner/work/extension-rive/extension-rive/build/render-tests/arm64-android/layout/report/console.log"
 }

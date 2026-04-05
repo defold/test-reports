@@ -45,6 +45,7 @@
     <summary>Test Info</summary>
     <div class="result-details-body">
       <p class="result-detail">Console log: <a href="/home/runner/work/extension-rive/extension-rive/build/render-tests/arm64-android/egg/report/console.log">console.log</a></p>
+      <p class="result-detail">System trace: <a href="/home/runner/work/extension-rive/extension-rive/build/render-tests/arm64-android/egg/report/system-trace.json">system-trace.json</a></p>
       <div class="meta">{
   &quot;mode&quot;: &quot;android&quot;,
   &quot;package_name&quot;: &quot;com.defold.extensionrive&quot;,
@@ -54,11 +55,19 @@
   &quot;description&quot;: &quot;THis is a test of the feathering feature.&quot;,
   &quot;screenshot_path&quot;: &quot;build/render-tests/arm64-android/egg/report/screenshot.png&quot;,
   &quot;wait_ms&quot;: 1500,
-  &quot;captured_at&quot;: &quot;2026-04-05T12:54:10Z&quot;,
+  &quot;captured_at&quot;: &quot;2026-04-05T13:28:34Z&quot;,
   &quot;device_serial&quot;: &quot;emulator-5554&quot;,
-  &quot;app_pid&quot;: &quot;3671&quot;,
+  &quot;app_pid&quot;: &quot;3804&quot;,
   &quot;console_log_path&quot;: &quot;build/render-tests/arm64-android/egg/report/console.log&quot;,
   &quot;console_log_raw_path&quot;: &quot;build/render-tests/arm64-android/egg/report/logcat.raw.txt&quot;,
+  &quot;system_trace&quot;: true,
+  &quot;system_trace_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-trace.perfetto-trace&quot;,
+  &quot;system_trace_backend&quot;: &quot;&quot;,
+  &quot;system_top_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-top.txt&quot;,
+  &quot;system_cpuinfo_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-cpuinfo.txt&quot;,
+  &quot;system_meminfo_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-meminfo.txt&quot;,
+  &quot;system_display_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-display.txt&quot;,
+  &quot;system_trace_report_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-trace.json&quot;,
   &quot;device_orientation&quot;: &quot;landscape&quot;
 }</div>
     </div>
@@ -74,34 +83,85 @@
       </summary>
       <div class="result-details-body">
         <p class="result-detail">Detected in console.log</p>
-        <p class="result-detail">Signature: 04-05 12:54:08.653  3671  3749 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3749 (looper_main), pid 3671 (d.extensionrive)</p>
-        <div class="meta">04-05 12:54:08.589  3671  3749 V threaded_app: Config: mcc=310 mnc=260 lang=en cnt=US orien=2 touch=3 dens=420 keys=2 nav=1 keysHid=1 navHid=0 sdk=34 size=2 long=2 modetype=1 modenight=1
-04-05 12:54:08.611  3671  3749 V glfw-android: _glfwPreMain
-04-05 12:54:08.649  3671  3671 V threaded_app: Start: 0x7f5bd9334db0
-04-05 12:54:08.651  3671  3749 V threaded_app: activityState=10
-04-05 12:54:08.653  3671  3749 E ndk_translation: Undefined instruction 0xd50320bf at 0x00007f5a744eccb0
-04-05 12:54:08.653  3671  3749 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3749 (looper_main), pid 3671 (d.extensionrive)
-04-05 12:54:08.674  3671  3671 V threaded_app: Resume: 0x7f5bd9334db0</div>
+        <p class="result-detail">Signature: 04-05 13:28:23.836  3804  3908 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3908 (looper_main), pid 3804 (d.extensionrive)</p>
+        <div class="meta">04-05 13:28:23.824  3804  3804 V threaded_app: Start: 0x72f953851860
+04-05 13:28:23.824  3804  3908 V threaded_app: activityState=10
+04-05 13:28:23.810  3804  3804 W d.extensionrive: type=1400 audit(0.0:17): avc:  denied  { getattr } for  path=&quot;/dev/pmsg0&quot; dev=&quot;tmpfs&quot; ino=396 scontext=u:r:untrusted_app:s0:c192,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.defold.extensionrive
+04-05 13:28:23.832  3804  3908 E ndk_translation: Undefined instruction 0xd50320bf at 0x000072f82c28ecb0
+04-05 13:28:23.834  3804  3804 V threaded_app: Resume: 0x72f953851860
+04-05 13:28:23.836  3804  3908 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3908 (looper_main), pid 3804 (d.extensionrive)</div>
+      </div>
+    </details>
+    
+  
+    <details class="trace-summary">
+      <summary class="trace-summary-summary">
+        <span class="summary-arrow" aria-hidden="true"></span>
+        <span class="trace-line">
+          <span class="trace-label">Trace</span>
+          <span class="trace-summary-text">CPU usage unavailable. | Memory usage unavailable. | Display: 1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz</span>
+        </span>
+      </summary>
+      <div class="result-details-body">
+        <div class="meta">{
+  &quot;generated_at&quot;: &quot;2026-04-05T13:28:39Z&quot;,
+  &quot;system_trace_enabled&quot;: true,
+  &quot;backend&quot;: &quot;&quot;,
+  &quot;package_name&quot;: &quot;com.defold.extensionrive&quot;,
+  &quot;app_pid&quot;: &quot;3804&quot;,
+  &quot;Summary&quot;: &quot;CPU usage unavailable. | Memory usage unavailable. | Display: 1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz&quot;,
+  &quot;Trace counters&quot;: {
+    &quot;backend&quot;: &quot;&quot;,
+    &quot;path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-trace.perfetto-trace&quot;,
+    &quot;exists&quot;: false,
+    &quot;summary&quot;: &quot;Trace file not found.&quot;
+  },
+  &quot;CPU usage&quot;: {
+    &quot;summary&quot;: &quot;CPU usage unavailable.&quot;,
+    &quot;backend&quot;: &quot;top&quot;,
+    &quot;selected_app&quot;: null,
+    &quot;source_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-top.txt&quot;
+  },
+  &quot;Memory usage&quot;: {
+    &quot;summary&quot;: &quot;Memory usage unavailable.&quot;,
+    &quot;backend&quot;: &quot;meminfo&quot;,
+    &quot;selected_heap&quot;: null,
+    &quot;heap_entries&quot;: [],
+    &quot;total_pss_kib&quot;: null,
+    &quot;total_swap_pss_kib&quot;: null,
+    &quot;source_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-meminfo.txt&quot;
+  },
+  &quot;Display metrics&quot;: {
+    &quot;summary&quot;: &quot;1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz&quot;,
+    &quot;backend&quot;: &quot;display&quot;,
+    &quot;metrics&quot;: {
+      &quot;physical_size&quot;: &quot;1080x2280&quot;,
+      &quot;physical_density&quot;: &quot;440&quot;,
+      &quot;refresh_rate&quot;: &quot;DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0}&quot;
+    },
+    &quot;source_path&quot;: &quot;build/render-tests/arm64-android/egg/report/system-display.txt&quot;
+  }
+}</div>
       </div>
     </details>
     
   <details class="panel result-summary">
-    <summary class="result-summary-summary"><span class="summary-arrow" aria-hidden="true"></span><span class="likeness-line"><span class="likeness-value">76.61%</span> <span class="likeness-label">Likeness</span> <span class="likeness-status fail">❌ FAIL</span></span></summary>
+    <summary class="result-summary-summary"><span class="summary-arrow" aria-hidden="true"></span><span class="likeness-line"><span class="likeness-value">66.75%</span> <span class="likeness-label">Likeness</span> <span class="likeness-status fail">❌ FAIL</span></span></summary>
     
       <div class="result-details-body">
         <p class="result-detail">Threshold: 95.00%</p>
         <p class="result-detail">Metric: RMSE</p>
-        <p class="result-detail">Normalized difference: 0.233853</p>
+        <p class="result-detail">Normalized difference: 0.332490</p>
         <div class="meta">{
   &quot;metric&quot;: &quot;RMSE&quot;,
-  &quot;raw_output&quot;: &quot;15325.6 (0.233853)&quot;,
-  &quot;normalized_difference&quot;: 0.233853,
-  &quot;likeness_percent&quot;: 76.6147,
+  &quot;raw_output&quot;: &quot;21789.7 (0.33249)&quot;,
+  &quot;normalized_difference&quot;: 0.33249,
+  &quot;likeness_percent&quot;: 66.751,
   &quot;diff_image_name&quot;: &quot;diff.png&quot;,
   &quot;status&quot;: &quot;fail&quot;,
   &quot;likeness_threshold&quot;: 95.0,
   &quot;crash_detected&quot;: true,
-  &quot;crash_signature&quot;: &quot;04-05 12:54:08.653  3671  3749 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3749 (looper_main), pid 3671 (d.extensionrive)&quot;,
+  &quot;crash_signature&quot;: &quot;04-05 13:28:23.836  3804  3908 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3908 (looper_main), pid 3804 (d.extensionrive)&quot;,
   &quot;crash_log_path&quot;: &quot;/home/runner/work/extension-rive/extension-rive/build/render-tests/arm64-android/egg/report/console.log&quot;
 }</div>
         <img src="diff.png" alt="Difference image from ImageMagick compare">

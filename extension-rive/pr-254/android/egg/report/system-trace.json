@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-04-05T13:28:39Z",
+  "system_trace_enabled": true,
+  "backend": "",
+  "package_name": "com.defold.extensionrive",
+  "app_pid": "3804",
+  "Summary": "CPU usage unavailable. | Memory usage unavailable. | Display: 1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz",
+  "Trace counters": {
+    "backend": "",
+    "path": "build/render-tests/arm64-android/egg/report/system-trace.perfetto-trace",
+    "exists": false,
+    "summary": "Trace file not found."
+  },
+  "CPU usage": {
+    "summary": "CPU usage unavailable.",
+    "backend": "top",
+    "selected_app": null,
+    "source_path": "build/render-tests/arm64-android/egg/report/system-top.txt"
+  },
+  "Memory usage": {
+    "summary": "Memory usage unavailable.",
+    "backend": "meminfo",
+    "selected_heap": null,
+    "heap_entries": [],
+    "total_pss_kib": null,
+    "total_swap_pss_kib": null,
+    "source_path": "build/render-tests/arm64-android/egg/report/system-meminfo.txt"
+  },
+  "Display metrics": {
+    "summary": "1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz",
+    "backend": "display",
+    "metrics": {
+      "physical_size": "1080x2280",
+      "physical_density": "440",
+      "refresh_rate": "DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0}"
+    },
+    "source_path": "build/render-tests/arm64-android/egg/report/system-display.txt"
+  }
+}
