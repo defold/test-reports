@@ -1,0 +1,16 @@
+{
+  "mode": "android",
+  "package_name": "com.defold.extensionrive",
+  "activity_name": "com.dynamo.android.DefoldActivity",
+  "platform": "arm64-android",
+  "test_group": "layout",
+  "description": "Tests dynamic layout of elements.",
+  "screenshot_path": "build/render-tests/arm64-android/layout/report/screenshot.png",
+  "wait_ms": 1500,
+  "captured_at": "2026-04-05T11:45:33Z",
+  "device_serial": "emulator-5554",
+  "app_pid": "",
+  "console_log_path": "build/render-tests/arm64-android/layout/report/console.log",
+  "console_log_raw_path": "build/render-tests/arm64-android/layout/report/logcat.raw.txt",
+  "device_orientation": "landscape"
+}
