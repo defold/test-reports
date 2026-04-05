@@ -1,4 +1,1 @@
-Applications Memory Usage (in Kilobytes):
-Uptime: 74575 Realtime: 74575
-
-** MEMINFO in pid 4323 [com.defold.extensionrive] **
+No process found for: com.defold.extensionrive
