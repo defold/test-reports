@@ -1,55 +1,55 @@
-2026-04-04T14:38:51.547Z [log] Running... (http://127.0.0.1:43261/dmloader.js:933:40)
-2026-04-04T14:38:51.558Z [log] INFO:DLIB: Log server started on port 0
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.560Z [log] INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.560Z [log] INFO:ENGINE: Defold Engine 1.12.4 (89ed845)
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.564Z [log] %c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0; (http://127.0.0.1:43261/extensionrive_wasm.js:0:260258)
-2026-04-04T14:38:51.564Z [log] INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.591Z [log] INFO:ENGINE: Loading data from: archive:game.dmanifest
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.597Z [log] INFO:RIVEEXT: ==== GL GPU: WebKit WebGL ====
+2026-04-05T10:26:55.843Z [log] Running... (http://127.0.0.1:38813/dmloader.js:933:40)
+2026-04-05T10:26:55.856Z [log] INFO:DLIB: Log server started on port 0
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.857Z [log] INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.857Z [log] INFO:ENGINE: Defold Engine 1.12.4 (24b0465)
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.864Z [log] %c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0; (http://127.0.0.1:38813/extensionrive_wasm.js:0:260258)
+2026-04-05T10:26:55.864Z [log] INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.902Z [log] INFO:ENGINE: Loading data from: archive:game.dmanifest
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.911Z [log] INFO:RIVEEXT: ==== GL GPU: WebKit WebGL ====
 
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.623Z [log] INFO:RIVEEXT: Registered Rive extension:  2026-01-09T07:54:52Z  3a5b5058aca009b823154ed7f92c11d599c00ae3
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.936Z [log] INFO:RIVEEXT: Registered Rive extension:  2026-01-09T07:54:52Z  3a5b5058aca009b823154ed7f92c11d599c00ae3
 
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.625Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate zip file references
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.625Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate index paths
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.667Z [log] INFO:SOUND: Info
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.667Z [log] INFO:SOUND:   nSamplesPerSec:   48000
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.667Z [log] INFO:SOUND:   DSP backend: Fallback
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.671Z [log] INFO:SOUND: Sound
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.671Z [log] INFO:SOUND:   nSamplesPerSec:   48000
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.671Z [log] INFO:SOUND:        useThread:   0
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.672Z [log] INFO:ENGINE: Initialised sound device 'default'
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.677Z [log] INFO:RIVEEXT: Render to texture enabled
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.677Z [log] INFO:RIVEEXT: Display Factor: 1
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.718Z [log] WARNING:RIVEEXT: The atlas property is deprected and ignored (/main/databind/achievement.rivescenec): '/defold-rive/assets/empty.a.texturesetc'
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.972Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.937Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate zip file references
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.942Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate index paths
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.986Z [log] INFO:SOUND: Info
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.990Z [log] INFO:SOUND:   nSamplesPerSec:   48000
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.993Z [log] INFO:SOUND:   DSP backend: Fallback
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.993Z [log] INFO:SOUND: Sound
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.994Z [log] INFO:SOUND:   nSamplesPerSec:   48000
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.994Z [log] INFO:SOUND:        useThread:   0
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.994Z [log] INFO:ENGINE: Initialised sound device 'default'
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.995Z [log] INFO:RIVEEXT: Render to texture enabled
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:55.995Z [log] INFO:RIVEEXT: Display Factor: 1
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.037Z [log] WARNING:RIVEEXT: The atlas property is deprected and ignored (/main/databind/achievement.rivescenec): '/defold-rive/assets/empty.a.texturesetc'
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.328Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onFileLoaded],
-{ --[[0x1a1a138]]
+{ --[[0x1a1b9c8]]
   file = 1
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.973Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.329Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelsListed],
-{ --[[0x1a1a3a8]]
-  viewModelNames = { --[[0x1a1a3f8]]
+{ --[[0x1a1bc38]]
+  viewModelNames = { --[[0x1a1bc88]]
     1 = "vmAchiementBadge",
     2 = "vmRating",
     3 = "vmBadge",
@@ -57,11 +57,11 @@ hash: [onViewModelsListed],
   },
   file = 1
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.974Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.330Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onArtboardsListed],
-{ --[[0x1a1a3d0]]
-  artboardNames = { --[[0x1a1a6c8]]
+{ --[[0x1a1bc60]]
+  artboardNames = { --[[0x1a1bf58]]
     1 = "Preview",
     2 = "Stars",
     3 = "Froggo",
@@ -71,14 +71,14 @@ hash: [onArtboardsListed],
     7 = "Castela"
   }
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.976Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.330Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelEnumsListed],
-{ --[[0x1a1a960]]
-  enums = { --[[0x1a1a9b0]]
-    1 = { --[[0x1a1a9d8]]
+{ --[[0x1a1c1f0]]
+  enums = { --[[0x1a1c240]]
+    1 = { --[[0x1a1c268]]
       name = "Badge List",
-      enumerants = { --[[0x1a1aa48]]
+      enumerants = { --[[0x1a1c2d8]]
         1 = "Froggo",
         2 = "Skulla",
         3 = "Castela"
@@ -87,131 +87,131 @@ hash: [onViewModelEnumsListed],
   },
   file = 1
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.976Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.330Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelInstanceNamesListed],
-{ --[[0x1a1aba8]]
+{ --[[0x1a1c438]]
   file = 1,
   viewModelName = "vmAchiementBadge",
-  instanceNames = { --[[0x1a1abd0]]
+  instanceNames = { --[[0x1a1c460]]
     1 = ""
   }
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.977Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.330Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelPropertiesListed],
-{ --[[0x1a1aeb0]]
+{ --[[0x1a1c740]]
   file = 1,
   viewModelName = "vmAchiementBadge",
-  properties = { --[[0x1a1aed8]]
-    1 = { --[[0x1a1af48]]
+  properties = { --[[0x1a1c768]]
+    1 = { --[[0x1a1c7d8]]
       type = 3,
       name = "isOpen",
       metaData = ""
     },
-    2 = { --[[0x1a1af70]]
+    2 = { --[[0x1a1c800]]
       type = 8,
       name = "property of vmBadge",
       metaData = "vmBadge"
     },
-    3 = { --[[0x1a1b110]]
+    3 = { --[[0x1a1c9a0]]
       type = 8,
       name = "property of vmFlag",
       metaData = "vmFlag"
     },
-    4 = { --[[0x1a1b1c0]]
+    4 = { --[[0x1a1ca50]]
       type = 8,
       name = "property of vmRating",
       metaData = "vmRating"
     }
   }
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.977Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.330Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelInstanceNamesListed],
-{ --[[0x1a1b390]]
+{ --[[0x1a1cc20]]
   file = 1,
   viewModelName = "vmBadge",
-  instanceNames = { --[[0x1a1b3b8]]
+  instanceNames = { --[[0x1a1cc48]]
     1 = ""
   }
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.977Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.331Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelPropertiesListed],
-{ --[[0x1a1b480]]
+{ --[[0x1a1cd10]]
   file = 1,
   viewModelName = "vmBadge",
-  properties = { --[[0x1a1b4a8]]
-    1 = { --[[0x1a1b4e8]]
+  properties = { --[[0x1a1cd38]]
+    1 = { --[[0x1a1cd78]]
       type = 6,
       name = "badgeDesign",
       metaData = "Badge List"
     }
   }
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.978Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.331Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelInstanceNamesListed],
-{ --[[0x1a1b640]]
+{ --[[0x1a1ced0]]
   file = 1,
   viewModelName = "vmRating",
-  instanceNames = { --[[0x1a1b668]]
+  instanceNames = { --[[0x1a1cef8]]
     1 = ""
   }
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.978Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.331Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelPropertiesListed],
-{ --[[0x1a1b758]]
+{ --[[0x1a1cfe8]]
   file = 1,
   viewModelName = "vmRating",
-  properties = { --[[0x1a1b780]]
-    1 = { --[[0x1a1b7d0]]
+  properties = { --[[0x1a1d010]]
+    1 = { --[[0x1a1d060]]
       type = 3,
       name = "isOpen",
       metaData = ""
     },
-    2 = { --[[0x1a1b8f0]]
+    2 = { --[[0x1a1d180]]
       type = 2,
       name = "stars",
       metaData = ""
     }
   }
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.988Z [log] DEBUG:SCRIPT: FILE LISTENER,
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.335Z [log] DEBUG:SCRIPT: FILE LISTENER,
 hash: [onViewModelPropertiesListed],
-{ --[[0x1a20eb8]]
+{ --[[0x1a22748]]
   file = 1,
   viewModelName = "vmAchiementBadge",
-  properties = { --[[0x1a20ee0]]
-    1 = { --[[0x1a20f50]]
+  properties = { --[[0x1a22770]]
+    1 = { --[[0x1a227e0]]
       type = 3,
       name = "isOpen",
       metaData = ""
     },
-    2 = { --[[0x1a20f78]]
+    2 = { --[[0x1a22808]]
       type = 8,
       name = "property of vmBadge",
       metaData = "vmBadge"
     },
-    3 = { --[[0x1a21098]]
+    3 = { --[[0x1a22928]]
       type = 8,
       name = "property of vmFlag",
       metaData = "vmFlag"
     },
-    4 = { --[[0x1a211b8]]
+    4 = { --[[0x1a22a48]]
       type = 8,
       name = "property of vmRating",
       metaData = "vmRating"
     }
   }
 }
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.989Z [log] INFO:RIVEEXT: Change size to 885, 498
- (http://127.0.0.1:43261/dmloader.js:930:36)
-2026-04-04T14:38:51.994Z [error] ERROR : Property type View Model is not valid when subscribing (http://127.0.0.1:43261/dmloader.js:931:39)
-2026-04-04T14:38:51.994Z [error] ERROR : Property type View Model is not valid when subscribing (http://127.0.0.1:43261/dmloader.js:931:39)
-2026-04-04T14:38:51.994Z [error] ERROR : Property type View Model is not valid when subscribing (http://127.0.0.1:43261/dmloader.js:931:39)
-2026-04-04T14:38:52.797Z [log]  (http://127.0.0.1:43261/dmloader.js:933:40)
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.336Z [log] INFO:RIVEEXT: Change size to 885, 498
+ (http://127.0.0.1:38813/dmloader.js:930:36)
+2026-04-05T10:26:56.342Z [error] ERROR : Property type View Model is not valid when subscribing (http://127.0.0.1:38813/dmloader.js:931:39)
+2026-04-05T10:26:56.342Z [error] ERROR : Property type View Model is not valid when subscribing (http://127.0.0.1:38813/dmloader.js:931:39)
+2026-04-05T10:26:56.342Z [error] ERROR : Property type View Model is not valid when subscribing (http://127.0.0.1:38813/dmloader.js:931:39)
+2026-04-05T10:26:57.272Z [log]  (http://127.0.0.1:38813/dmloader.js:933:40)

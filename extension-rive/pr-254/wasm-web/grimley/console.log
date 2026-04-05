@@ -1,59 +1,59 @@
-2026-04-04T14:38:44.782Z [log] Running... (http://127.0.0.1:18080/dmloader.js:933:40)
-2026-04-04T14:38:44.794Z [log] INFO:DLIB: Log server started on port 0
+2026-04-05T10:26:48.684Z [log] Running... (http://127.0.0.1:18080/dmloader.js:933:40)
+2026-04-05T10:26:48.695Z [log] INFO:DLIB: Log server started on port 0
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.795Z [log] INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'
+2026-04-05T10:26:48.697Z [log] INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.796Z [log] INFO:ENGINE: Defold Engine 1.12.4 (89ed845)
+2026-04-05T10:26:48.697Z [log] INFO:ENGINE: Defold Engine 1.12.4 (24b0465)
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.799Z [log] %c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0; (http://127.0.0.1:18080/extensionrive_wasm.js:0:260258)
-2026-04-04T14:38:44.799Z [log] INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled
+2026-04-05T10:26:48.700Z [log] %c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0; (http://127.0.0.1:18080/extensionrive_wasm.js:0:260258)
+2026-04-05T10:26:48.701Z [log] INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.841Z [log] INFO:ENGINE: Loading data from: archive:game.dmanifest
+2026-04-05T10:26:48.738Z [log] INFO:ENGINE: Loading data from: archive:game.dmanifest
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.841Z [log] INFO:RIVEEXT: ==== GL GPU: WebKit WebGL ====
+2026-04-05T10:26:48.744Z [log] INFO:RIVEEXT: ==== GL GPU: WebKit WebGL ====
 
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.863Z [log] INFO:RIVEEXT: Registered Rive extension:  2026-01-09T07:54:52Z  3a5b5058aca009b823154ed7f92c11d599c00ae3
+2026-04-05T10:26:48.775Z [log] INFO:RIVEEXT: Registered Rive extension:  2026-01-09T07:54:52Z  3a5b5058aca009b823154ed7f92c11d599c00ae3
 
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.863Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate zip file references
+2026-04-05T10:26:48.776Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate zip file references
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.864Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate index paths
+2026-04-05T10:26:48.776Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate index paths
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.895Z [log] INFO:SOUND: Info
+2026-04-05T10:26:48.816Z [log] INFO:SOUND: Info
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.896Z [log] INFO:SOUND:   nSamplesPerSec:   48000
+2026-04-05T10:26:48.816Z [log] INFO:SOUND:   nSamplesPerSec:   48000
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.896Z [log] INFO:SOUND:   DSP backend: Fallback
+2026-04-05T10:26:48.816Z [log] INFO:SOUND:   DSP backend: Fallback
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.896Z [log] INFO:SOUND: Sound
+2026-04-05T10:26:48.819Z [log] INFO:SOUND: Sound
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.896Z [log] INFO:SOUND:   nSamplesPerSec:   48000
+2026-04-05T10:26:48.820Z [log] INFO:SOUND:   nSamplesPerSec:   48000
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.897Z [log] INFO:SOUND:        useThread:   0
+2026-04-05T10:26:48.820Z [log] INFO:SOUND:        useThread:   0
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.897Z [log] INFO:ENGINE: Initialised sound device 'default'
+2026-04-05T10:26:48.820Z [log] INFO:ENGINE: Initialised sound device 'default'
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.910Z [log] INFO:RIVEEXT: Render to texture enabled
+2026-04-05T10:26:48.824Z [log] INFO:RIVEEXT: Render to texture enabled
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.910Z [log] INFO:RIVEEXT: Display Factor: 1
+2026-04-05T10:26:48.825Z [log] INFO:RIVEEXT: Display Factor: 1
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.946Z [log] WARNING:RIVEEXT: The atlas property is deprected and ignored (/main/grimley/grimley.rivescenec): '/defold-rive/assets/empty.a.texturesetc'
+2026-04-05T10:26:48.858Z [log] WARNING:RIVEEXT: The atlas property is deprected and ignored (/main/grimley/grimley.rivescenec): '/defold-rive/assets/empty.a.texturesetc'
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.952Z [log] DEBUG:SCRIPT: artboard:	rive.FontHandle(0x1)
+2026-04-05T10:26:48.864Z [log] DEBUG:SCRIPT: artboard:	rive.FontHandle(0x1)
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:44.952Z [log] DEBUG:SCRIPT: state_machine:	rive.FontHandle(0x1)
+2026-04-05T10:26:48.864Z [log] DEBUG:SCRIPT: state_machine:	rive.FontHandle(0x1)
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:45.336Z [error] Could not find a View Model linked to Artboard Dwarf Panel. (http://127.0.0.1:18080/dmloader.js:931:39)
-2026-04-04T14:38:45.337Z [error] Could not find a View Model linked to Artboard Dwarf Panel. (http://127.0.0.1:18080/dmloader.js:931:39)
-2026-04-04T14:38:45.337Z [error] ERROR : Could not find default view model for artboard when getting default view model info (http://127.0.0.1:18080/dmloader.js:931:39)
-2026-04-04T14:38:45.337Z [error] ERROR : View model instance 1 not found for when trying to bind to a state machine (http://127.0.0.1:18080/dmloader.js:931:39)
-2026-04-04T14:38:45.344Z [log] DEBUG:SCRIPT: file:,
+2026-04-05T10:26:49.245Z [error] Could not find a View Model linked to Artboard Dwarf Panel. (http://127.0.0.1:18080/dmloader.js:931:39)
+2026-04-05T10:26:49.246Z [error] Could not find a View Model linked to Artboard Dwarf Panel. (http://127.0.0.1:18080/dmloader.js:931:39)
+2026-04-05T10:26:49.246Z [error] ERROR : Could not find default view model for artboard when getting default view model info (http://127.0.0.1:18080/dmloader.js:931:39)
+2026-04-05T10:26:49.246Z [error] ERROR : View model instance 1 not found for when trying to bind to a state machine (http://127.0.0.1:18080/dmloader.js:931:39)
+2026-04-05T10:26:49.253Z [log] DEBUG:SCRIPT: file:,
 hash: [onFileLoaded],
-{ --[[0x19d3060]]
+{ --[[0x19d48f0]]
   file = 1
 }
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:45.352Z [log] INFO:RIVEEXT: Change size to 885, 498
+2026-04-05T10:26:49.259Z [log] INFO:RIVEEXT: Change size to 885, 498
  (http://127.0.0.1:18080/dmloader.js:930:36)
-2026-04-04T14:38:46.088Z [log]  (http://127.0.0.1:18080/dmloader.js:933:40)
+2026-04-05T10:26:49.991Z [log]  (http://127.0.0.1:18080/dmloader.js:933:40)

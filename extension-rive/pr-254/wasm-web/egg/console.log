@@ -1,49 +1,49 @@
-2026-04-04T14:38:48.773Z [log] Running... (http://127.0.0.1:50541/dmloader.js:933:40)
-2026-04-04T14:38:48.784Z [log] INFO:DLIB: Log server started on port 0
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.786Z [log] INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.787Z [log] INFO:ENGINE: Defold Engine 1.12.4 (89ed845)
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.793Z [log] %c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0; (http://127.0.0.1:50541/extensionrive_wasm.js:0:260258)
-2026-04-04T14:38:48.793Z [log] INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.823Z [log] INFO:ENGINE: Loading data from: archive:game.dmanifest
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.832Z [log] INFO:RIVEEXT: ==== GL GPU: WebKit WebGL ====
+2026-04-05T10:26:52.720Z [log] Running... (http://127.0.0.1:35281/dmloader.js:933:40)
+2026-04-05T10:26:52.731Z [log] INFO:DLIB: Log server started on port 0
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.733Z [log] INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.733Z [log] INFO:ENGINE: Defold Engine 1.12.4 (24b0465)
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.739Z [log] %c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0; (http://127.0.0.1:35281/extensionrive_wasm.js:0:260258)
+2026-04-05T10:26:52.740Z [log] INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.768Z [log] INFO:ENGINE: Loading data from: archive:game.dmanifest
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.776Z [log] INFO:RIVEEXT: ==== GL GPU: WebKit WebGL ====
 
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.852Z [log] INFO:RIVEEXT: Registered Rive extension:  2026-01-09T07:54:52Z  3a5b5058aca009b823154ed7f92c11d599c00ae3
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.803Z [log] INFO:RIVEEXT: Registered Rive extension:  2026-01-09T07:54:52Z  3a5b5058aca009b823154ed7f92c11d599c00ae3
 
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.852Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate zip file references
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.852Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate index paths
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.887Z [log] INFO:SOUND: Info
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.889Z [log] INFO:SOUND:   nSamplesPerSec:   48000
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.890Z [log] INFO:SOUND:   DSP backend: Fallback
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.890Z [log] INFO:SOUND: Sound
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.891Z [log] INFO:SOUND:   nSamplesPerSec:   48000
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.894Z [log] INFO:SOUND:        useThread:   0
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.894Z [log] INFO:ENGINE: Initialised sound device 'default'
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.898Z [log] INFO:RIVEEXT: Render to texture enabled
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.898Z [log] INFO:RIVEEXT: Display Factor: 1
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.935Z [log] WARNING:RIVEEXT: The atlas property is deprected and ignored (/main/egg/egg.rivescenec): '/defold-rive/assets/empty.a.texturesetc'
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:48.955Z [error] Could not find a View Model linked to Artboard Artboard 3. (http://127.0.0.1:50541/dmloader.js:931:39)
-2026-04-04T14:38:48.955Z [error] Could not find a View Model linked to Artboard Artboard 3. (http://127.0.0.1:50541/dmloader.js:931:39)
-2026-04-04T14:38:48.956Z [error] ERROR : Could not find default view model for artboard when getting default view model info (http://127.0.0.1:50541/dmloader.js:931:39)
-2026-04-04T14:38:48.956Z [error] ERROR : View model instance 1 not found for when trying to bind to a state machine (http://127.0.0.1:50541/dmloader.js:931:39)
-2026-04-04T14:38:48.975Z [log] INFO:RIVEEXT: Change size to 885, 498
- (http://127.0.0.1:50541/dmloader.js:930:36)
-2026-04-04T14:38:49.420Z [log]  (http://127.0.0.1:50541/dmloader.js:933:40)
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.803Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate zip file references
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.803Z [log] INFO:LIVEUPDATE: Found no legacy liveupdate index paths
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.845Z [log] INFO:SOUND: Info
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.846Z [log] INFO:SOUND:   nSamplesPerSec:   48000
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.846Z [log] INFO:SOUND:   DSP backend: Fallback
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.846Z [log] INFO:SOUND: Sound
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.846Z [log] INFO:SOUND:   nSamplesPerSec:   48000
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.847Z [log] INFO:SOUND:        useThread:   0
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.847Z [log] INFO:ENGINE: Initialised sound device 'default'
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.856Z [log] INFO:RIVEEXT: Render to texture enabled
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.859Z [log] INFO:RIVEEXT: Display Factor: 1
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.890Z [log] WARNING:RIVEEXT: The atlas property is deprected and ignored (/main/egg/egg.rivescenec): '/defold-rive/assets/empty.a.texturesetc'
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:52.907Z [error] Could not find a View Model linked to Artboard Artboard 3. (http://127.0.0.1:35281/dmloader.js:931:39)
+2026-04-05T10:26:52.907Z [error] Could not find a View Model linked to Artboard Artboard 3. (http://127.0.0.1:35281/dmloader.js:931:39)
+2026-04-05T10:26:52.908Z [error] ERROR : Could not find default view model for artboard when getting default view model info (http://127.0.0.1:35281/dmloader.js:931:39)
+2026-04-05T10:26:52.908Z [error] ERROR : View model instance 1 not found for when trying to bind to a state machine (http://127.0.0.1:35281/dmloader.js:931:39)
+2026-04-05T10:26:52.921Z [log] INFO:RIVEEXT: Change size to 885, 498
+ (http://127.0.0.1:35281/dmloader.js:930:36)
+2026-04-05T10:26:53.401Z [log]  (http://127.0.0.1:35281/dmloader.js:933:40)
