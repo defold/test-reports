@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Render Test Report</title>
+  <link rel="stylesheet" href="report.css">
+</head>
+<body>
+  <div class="title-row">
+    <h1>Render Test</h1>
+    <div class="platform-row"><span class="inline-icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="256"
+  height="256"
+  viewBox="0 0 128 128"
+>
+  <!-- Group for the whole robot -->
+  <g fill="#3ddc84" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Antennas -->
+    <line x1="44" y1="18" x2="34" y2="6" />
+    <line x1="84" y1="18" x2="94" y2="6" />
+
+    <!-- Head -->
+    <rect x="32" y="18" width="64" height="36" rx="18" ry="18" />
+
+    <!-- Eyes -->
+    <circle cx="48" cy="34" r="3" fill="#ffffff" />
+    <circle cx="80" cy="34" r="3" fill="#ffffff" />
+
+    <!-- Arms -->
+    <rect x="16" y="52" width="10" height="40" rx="5" ry="5" />
+    <rect x="102" y="52" width="10" height="40" rx="5" ry="5" />
+
+    <!-- Legs -->
+    <rect x="40" y="100" width="12" height="20" rx="4" ry="4" />
+    <rect x="76" y="100" width="12" height="20" rx="4" ry="4" />
+
+    <!-- Body -->
+    <rect x="28" y="50" width="72" height="52" rx="10" ry="10" />
+
+  </g>
+</svg></span><span class="platform-text">Platform: <strong>arm64-android</strong></span></div>
+  </div>
+  <details>
+    <summary>Test Info</summary>
+    <div class="result-details-body">
+      <p class="result-detail">Console log: <a href="/home/runner/work/extension-rive/extension-rive/build/render-tests/arm64-android/egg/report/console.log">console.log</a></p>
+      <div class="meta">{
+  &quot;mode&quot;: &quot;android&quot;,
+  &quot;package_name&quot;: &quot;com.defold.extensionrive&quot;,
+  &quot;activity_name&quot;: &quot;com.dynamo.android.DefoldActivity&quot;,
+  &quot;platform&quot;: &quot;arm64-android&quot;,
+  &quot;test_group&quot;: &quot;egg&quot;,
+  &quot;description&quot;: &quot;THis is a test of the feathering feature.&quot;,
+  &quot;screenshot_path&quot;: &quot;build/render-tests/arm64-android/egg/report/screenshot.png&quot;,
+  &quot;wait_ms&quot;: 1500,
+  &quot;captured_at&quot;: &quot;2026-04-05T12:54:10Z&quot;,
+  &quot;device_serial&quot;: &quot;emulator-5554&quot;,
+  &quot;app_pid&quot;: &quot;3671&quot;,
+  &quot;console_log_path&quot;: &quot;build/render-tests/arm64-android/egg/report/console.log&quot;,
+  &quot;console_log_raw_path&quot;: &quot;build/render-tests/arm64-android/egg/report/logcat.raw.txt&quot;,
+  &quot;device_orientation&quot;: &quot;landscape&quot;
+}</div>
+    </div>
+  </details>
+  
+    <details class="crash-summary">
+      <summary class="crash-summary-summary">
+        <span class="summary-arrow" aria-hidden="true"></span>
+        <span class="crash-line">
+          <span class="crash-mark" aria-hidden="true">❌</span>
+          <span class="crash-label">Crash</span>
+        </span>
+      </summary>
+      <div class="result-details-body">
+        <p class="result-detail">Detected in console.log</p>
+        <p class="result-detail">Signature: 04-05 12:54:08.653  3671  3749 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3749 (looper_main), pid 3671 (d.extensionrive)</p>
+        <div class="meta">04-05 12:54:08.589  3671  3749 V threaded_app: Config: mcc=310 mnc=260 lang=en cnt=US orien=2 touch=3 dens=420 keys=2 nav=1 keysHid=1 navHid=0 sdk=34 size=2 long=2 modetype=1 modenight=1
+04-05 12:54:08.611  3671  3749 V glfw-android: _glfwPreMain
+04-05 12:54:08.649  3671  3671 V threaded_app: Start: 0x7f5bd9334db0
+04-05 12:54:08.651  3671  3749 V threaded_app: activityState=10
+04-05 12:54:08.653  3671  3749 E ndk_translation: Undefined instruction 0xd50320bf at 0x00007f5a744eccb0
+04-05 12:54:08.653  3671  3749 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3749 (looper_main), pid 3671 (d.extensionrive)
+04-05 12:54:08.674  3671  3671 V threaded_app: Resume: 0x7f5bd9334db0</div>
+      </div>
+    </details>
+    
+  <details class="panel result-summary">
+    <summary class="result-summary-summary"><span class="summary-arrow" aria-hidden="true"></span><span class="likeness-line"><span class="likeness-value">76.61%</span> <span class="likeness-label">Likeness</span> <span class="likeness-status fail">❌ FAIL</span></span></summary>
+    
+      <div class="result-details-body">
+        <p class="result-detail">Threshold: 95.00%</p>
+        <p class="result-detail">Metric: RMSE</p>
+        <p class="result-detail">Normalized difference: 0.233853</p>
+        <div class="meta">{
+  &quot;metric&quot;: &quot;RMSE&quot;,
+  &quot;raw_output&quot;: &quot;15325.6 (0.233853)&quot;,
+  &quot;normalized_difference&quot;: 0.233853,
+  &quot;likeness_percent&quot;: 76.6147,
+  &quot;diff_image_name&quot;: &quot;diff.png&quot;,
+  &quot;status&quot;: &quot;fail&quot;,
+  &quot;likeness_threshold&quot;: 95.0,
+  &quot;crash_detected&quot;: true,
+  &quot;crash_signature&quot;: &quot;04-05 12:54:08.653  3671  3749 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3749 (looper_main), pid 3671 (d.extensionrive)&quot;,
+  &quot;crash_log_path&quot;: &quot;/home/runner/work/extension-rive/extension-rive/build/render-tests/arm64-android/egg/report/console.log&quot;
+}</div>
+        <img src="diff.png" alt="Difference image from ImageMagick compare">
+      </div>
+    
+  </details>
+  <div class="grid">
+    <section class="panel">
+      <h2>Captured:</h2>
+      <img src="screenshot.png" alt="Render test result screenshot">
+    </section>
+    <section class="panel">
+      <h2>Expected:</h2>
+      <img src="expected.png" alt="Expected render screenshot">
+    </section>
+  </div>
+</body>
+</html>
