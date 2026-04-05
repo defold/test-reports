@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-05T13:28:39Z",
+  "generated_at": "2026-04-05T13:40:05Z",
   "system_trace_enabled": true,
   "backend": "",
   "package_name": "com.defold.extensionrive",
-  "app_pid": "3804",
-  "Summary": "CPU usage unavailable. | Memory usage unavailable. | Display: 1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz",
+  "app_pid": "3230",
+  "Summary": "CPU 0 % | Memory: 1.6 mb (heap) | Display: 1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz",
   "Trace counters": {
     "backend": "",
     "path": "build/render-tests/arm64-android/egg/report/system-trace.perfetto-trace",
@@ -12,16 +12,35 @@
     "summary": "Trace file not found."
   },
   "CPU usage": {
-    "summary": "CPU usage unavailable.",
+    "summary": "CPU 0 %",
     "backend": "top",
-    "selected_app": null,
+    "selected_app": {
+      "line": "3230 u0_a192      10 -10  29G 111M  71M S  0.0   5.6   0:00.25 com.defold.exte+",
+      "name": "com.defold.exte",
+      "percent": 0.0
+    },
     "source_path": "build/render-tests/arm64-android/egg/report/system-top.txt"
   },
   "Memory usage": {
-    "summary": "Memory usage unavailable.",
+    "summary": "Memory: 1.6 mb (heap)",
     "backend": "meminfo",
-    "selected_heap": null,
-    "heap_entries": [],
+    "selected_heap": {
+      "label": "Native Heap",
+      "kib": 1618,
+      "mib": 1.580078125
+    },
+    "heap_entries": [
+      {
+        "label": "Native Heap",
+        "kib": 1618,
+        "mib": 1.580078125
+      },
+      {
+        "label": "Dalvik Heap",
+        "kib": 347,
+        "mib": 0.3388671875
+      }
+    ],
     "total_pss_kib": null,
     "total_swap_pss_kib": null,
     "source_path": "build/render-tests/arm64-android/egg/report/system-meminfo.txt"

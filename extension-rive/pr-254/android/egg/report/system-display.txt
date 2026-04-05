@@ -28,7 +28,7 @@ Display Devices: size=1
   DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4619827259835644672", 1080 x 2280, modeId 1, renderFrameRate 60.000004, defaultModeId 1, supportedModes [{id=1, width=1080, height=2280, fps=60.000004, alternativeRefreshRates=[], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 440.0 x 440.0 dpi, appVsyncOff 1000000, presDeadline 16666666, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x401cec6a7a2b7b}, deviceProductInfo DeviceProductInfo{name=EMU_display_0, manufacturerPnpId=GGL, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, committedState ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.39763778, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=-275998131 displayWidth=1080 displayHeight=2280 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
     mAdapter=LocalDisplayAdapter
     mUniqueId=local:4619827259835644672
-    mDisplayToken=android.os.BinderProxy@663e0e1
+    mDisplayToken=android.os.BinderProxy@93507de
     mCurrentLayerStack=0
     mCurrentFlags=1
     mCurrentOrientation=1
@@ -110,16 +110,17 @@ LogicalDisplayMapper:
     Registered Layouts:
     state(-1): [{dispId: 0(ON), displayGroupName: , addr: {port=0, model=0x401cec6a7a2b7b}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mThermalRefreshRateThrottlingMapId: null}]
 
-Callbacks: size=9
+Callbacks: size=10
   0: mPid=521, mWifiDisplayScanRequested=false
-  1: mPid=841, mWifiDisplayScanRequested=false
-  2: mPid=1032, mWifiDisplayScanRequested=false
-  3: mPid=1056, mWifiDisplayScanRequested=false
-  4: mPid=1057, mWifiDisplayScanRequested=false
-  5: mPid=1555, mWifiDisplayScanRequested=false
-  6: mPid=1737, mWifiDisplayScanRequested=false
-  7: mPid=1752, mWifiDisplayScanRequested=false
-  8: mPid=3805, mWifiDisplayScanRequested=false
+  1: mPid=838, mWifiDisplayScanRequested=false
+  2: mPid=1035, mWifiDisplayScanRequested=false
+  3: mPid=1059, mWifiDisplayScanRequested=false
+  4: mPid=1060, mWifiDisplayScanRequested=false
+  5: mPid=1099, mWifiDisplayScanRequested=false
+  6: mPid=1577, mWifiDisplayScanRequested=false
+  7: mPid=1761, mWifiDisplayScanRequested=false
+  8: mPid=1791, mWifiDisplayScanRequested=false
+  9: mPid=3494, mWifiDisplayScanRequested=false
 
 Display Power Controllers: size=1
 
@@ -233,7 +234,7 @@ HighBrightnessModeController:
   mBrightnessMax=1.0
   remainingTime=0
   mIsTimeAvailable= false
-  mRunningStartTimeMillis=-1 (65997 ms ago)
+  mRunningStartTimeMillis=-1 (58356 ms ago)
   mIsBlockedByLowPowerMode=false
   width*height=1080*2280
   mEvents=
@@ -290,7 +291,7 @@ DisplayPowerProximityStateController:
   mProximityThreshold=1.0
   mProximity=Unknown
   mPendingProximity=Unknown
-  mPendingProximityDebounceTime=-1 (65997 ms ago)
+  mPendingProximityDebounceTime=-1 (58356 ms ago)
   mScreenOffBecauseOfProximity=false
   mSkipRampBecauseOfProximityChangeToNegative=false
 

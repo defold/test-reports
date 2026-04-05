@@ -1,21 +1,21 @@
-# sample 1 2026-04-05T13:28:25Z
+# sample 1 2026-04-05T13:39:54Z
+[s[999C[999B[6n[u[H[J[?25l[H[J[s[999C[999B[6n[uTasks: 1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+  Mem:  2021528K total,  1900124K used,   121404K free,     5832K buffers
+ Swap:  1516140K total,   351744K used,  1164396K free,   814492K cached
+200%cpu  56%user  26%nice  93%sys  19%idle   0%iow   0%irq   7%sirq   0%host
+[7m  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS            [0m
+ 3230 u0_a192      10 -10  29G 111M  71M S  0.0   5.6   0:00.25 com.defold.exte+[?25h[0m[999H[K[?25h[?25h[0m[999H[K
+# sample 2 2026-04-05T13:39:55Z
 [s[999C[999B[6n[u[H[J[?25l[H[J[s[999C[999B[6n[uTasks: 0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
-  Mem:  2021528K total,  1891748K used,   129780K free,     6936K buffers
- Swap:  1516140K total,   389888K used,  1126252K free,   828692K cached
-200%cpu 1600%user 900%nice 2100%sys 4700%idle 100%iow   0%irq 100%sirq 100%host
+  Mem:  2021528K total,  1851712K used,   169816K free,     6496K buffers
+ Swap:  1516140K total,   401664K used,  1114476K free,   844572K cached
+200%cpu 1200%user 800%nice 3000%sys 4900%idle   0%iow   0%irq 100%sirq   0%host
 [7m  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS            [0m
 [?25h[0m[999H[K[?25h[?25h[0m[999H[K
-# sample 2 2026-04-05T13:28:26Z
+# sample 3 2026-04-05T13:39:56Z
 [s[999C[999B[6n[u[H[J[?25l[H[J[s[999C[999B[6n[uTasks: 0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
-  Mem:  2021528K total,  1836256K used,   185272K free,     5776K buffers
- Swap:  1516140K total,   431104K used,  1085036K free,   786808K cached
-200%cpu 1100%user 1500%nice 2400%sys 4900%idle   0%iow   0%irq 100%sirq   0%host
-[7m  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS            [0m
-[?25h[0m[999H[K[?25h[?25h[0m[999H[K
-# sample 3 2026-04-05T13:28:27Z
-[s[999C[999B[6n[u[H[J[?25l[H[J[s[999C[999B[6n[uTasks: 0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
-  Mem:  2021528K total,  1896152K used,   125376K free,     6548K buffers
- Swap:  1516140K total,   419328K used,  1096812K free,   825796K cached
-200%cpu 1700%user 400%nice 2300%sys 4800%idle   0%iow   0%irq 100%sirq 500%host
+  Mem:  2021528K total,  1928008K used,    93520K free,     8016K buffers
+ Swap:  1516140K total,   399616K used,  1116524K free,   886708K cached
+200%cpu 2300%user 900%nice 1600%sys 4800%idle   0%iow   0%irq 200%sirq   0%host
 [7m  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS            [0m
 [?25h[0m[999H[K[?25h[?25h[0m[999H[K

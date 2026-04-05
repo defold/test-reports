@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-05T13:28:58Z",
+  "generated_at": "2026-04-05T13:40:27Z",
   "system_trace_enabled": true,
   "backend": "",
   "package_name": "com.defold.extensionrive",
-  "app_pid": "4908",
-  "Summary": "CPU usage unavailable. | Memory usage unavailable. | Display: 1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz",
+  "app_pid": "4149",
+  "Summary": "CPU 0 % | Memory usage unavailable. | Display: 1080x2280 @ 440 dpi, DisplayMode{id=0, width=1080, height=2280, xDpi=440.0, yDpi=440.0, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0} Hz",
   "Trace counters": {
     "backend": "",
     "path": "build/render-tests/arm64-android/layout/report/system-trace.perfetto-trace",
@@ -12,9 +12,13 @@
     "summary": "Trace file not found."
   },
   "CPU usage": {
-    "summary": "CPU usage unavailable.",
+    "summary": "CPU 0 %",
     "backend": "top",
-    "selected_app": null,
+    "selected_app": {
+      "line": "4149 u0_a192      10 -10  29G 111M  71M S  0.0   5.6   0:00.29 com.defold.exte+",
+      "name": "com.defold.exte",
+      "percent": 0.0
+    },
     "source_path": "build/render-tests/arm64-android/layout/report/system-top.txt"
   },
   "Memory usage": {

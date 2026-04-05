@@ -1,28 +1,28 @@
-04-05 13:28:22.846  3804  3804 I d.extensionrive: Late-enabling -Xcheck:jni
-04-05 13:28:22.867  3804  3804 I d.extensionrive: Using CollectorTypeCC GC.
-04-05 13:28:22.868  3804  3804 W d.extensionrive: Unexpected CPU variant for x86: x86_64.
-04-05 13:28:22.868  3804  3804 W d.extensionrive: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
-04-05 13:28:22.919  3804  3804 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
-04-05 13:28:23.199  3804  3804 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10192; state: ENABLED
-04-05 13:28:23.199  3804  3804 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10192; state: ENABLED
-04-05 13:28:23.215  3804  3804 W ziparchive: Unable to open '/data/app/~~R03NqajszwI8h51J4oZySg==/com.defold.extensionrive-dszRxPSDThahqmr4WYQNeg==/base.dm': No such file or directory
-04-05 13:28:23.215  3804  3804 W ziparchive: Unable to open '/data/app/~~R03NqajszwI8h51J4oZySg==/com.defold.extensionrive-dszRxPSDThahqmr4WYQNeg==/base.dm': No such file or directory
-04-05 13:28:23.224  3804  3804 D nativeloader: Configuring clns-6 for other apk /data/app/~~R03NqajszwI8h51J4oZySg==/com.defold.extensionrive-dszRxPSDThahqmr4WYQNeg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~R03NqajszwI8h51J4oZySg==/com.defold.extensionrive-dszRxPSDThahqmr4WYQNeg==/lib/arm64:/data/app/~~R03NqajszwI8h51J4oZySg==/com.defold.extensionrive-dszRxPSDThahqmr4WYQNeg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.defold.extensionrive
-04-05 13:28:23.372  3804  3804 V GraphicsEnvironment: Currently set values for:
-04-05 13:28:23.372  3804  3804 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
-04-05 13:28:23.372  3804  3804 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
-04-05 13:28:23.372  3804  3804 V GraphicsEnvironment: ANGLE GameManagerService for com.defold.extensionrive: false
-04-05 13:28:23.372  3804  3804 V GraphicsEnvironment: com.defold.extensionrive is not listed in per-application setting
-04-05 13:28:23.372  3804  3804 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
-04-05 13:28:23.550  3804  3882 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
-04-05 13:28:23.560  3804  3882 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
-04-05 13:28:23.569  3804  3882 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
-04-05 13:28:23.810  3804  3804 V threaded_app: Creating: 0x72f953851860
-04-05 13:28:23.818  3804  3908 V threaded_app: Config: mcc=310 mnc=260 lang=en cnt=US orien=2 touch=3 dens=440 keys=2 nav=1 keysHid=1 navHid=0 sdk=34 size=2 long=2 modetype=1 modenight=1
-04-05 13:28:23.818  3804  3908 V glfw-android: _glfwPreMain
-04-05 13:28:23.824  3804  3804 V threaded_app: Start: 0x72f953851860
-04-05 13:28:23.824  3804  3908 V threaded_app: activityState=10
-04-05 13:28:23.810  3804  3804 W d.extensionrive: type=1400 audit(0.0:17): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=396 scontext=u:r:untrusted_app:s0:c192,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.defold.extensionrive
-04-05 13:28:23.832  3804  3908 E ndk_translation: Undefined instruction 0xd50320bf at 0x000072f82c28ecb0
-04-05 13:28:23.834  3804  3804 V threaded_app: Resume: 0x72f953851860
-04-05 13:28:23.836  3804  3908 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3908 (looper_main), pid 3804 (d.extensionrive)
+04-05 13:39:39.071  3230  3230 I d.extensionrive: Late-enabling -Xcheck:jni
+04-05 13:39:39.170  3230  3230 I d.extensionrive: Using CollectorTypeCC GC.
+04-05 13:39:39.172  3230  3230 W d.extensionrive: Unexpected CPU variant for x86: x86_64.
+04-05 13:39:39.172  3230  3230 W d.extensionrive: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+04-05 13:39:39.309  3230  3230 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+04-05 13:39:40.732  3230  3230 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10192; state: ENABLED
+04-05 13:39:40.732  3230  3230 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10192; state: ENABLED
+04-05 13:39:40.793  3230  3230 W ziparchive: Unable to open '/data/app/~~KaTn80kNm6inoh2-UMkHdA==/com.defold.extensionrive-Oqagoyv2s-LGtb6c8IWWzA==/base.dm': No such file or directory
+04-05 13:39:40.794  3230  3230 W ziparchive: Unable to open '/data/app/~~KaTn80kNm6inoh2-UMkHdA==/com.defold.extensionrive-Oqagoyv2s-LGtb6c8IWWzA==/base.dm': No such file or directory
+04-05 13:39:40.795  3230  3230 D nativeloader: Configuring clns-6 for other apk /data/app/~~KaTn80kNm6inoh2-UMkHdA==/com.defold.extensionrive-Oqagoyv2s-LGtb6c8IWWzA==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~KaTn80kNm6inoh2-UMkHdA==/com.defold.extensionrive-Oqagoyv2s-LGtb6c8IWWzA==/lib/arm64:/data/app/~~KaTn80kNm6inoh2-UMkHdA==/com.defold.extensionrive-Oqagoyv2s-LGtb6c8IWWzA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.defold.extensionrive
+04-05 13:39:40.992  3230  3230 V GraphicsEnvironment: Currently set values for:
+04-05 13:39:40.993  3230  3230 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+04-05 13:39:40.993  3230  3230 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+04-05 13:39:40.998  3230  3230 V GraphicsEnvironment: ANGLE GameManagerService for com.defold.extensionrive: false
+04-05 13:39:40.998  3230  3230 V GraphicsEnvironment: com.defold.extensionrive is not listed in per-application setting
+04-05 13:39:40.998  3230  3230 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+04-05 13:39:41.354  3230  3372 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+04-05 13:39:41.368  3230  3372 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+04-05 13:39:41.375  3230  3372 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+04-05 13:39:41.662  3230  3230 V threaded_app: Creating: 0x76294ec946e0
+04-05 13:39:41.661  3230  3230 W d.extensionrive: type=1400 audit(0.0:16): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=441 scontext=u:r:untrusted_app:s0:c192,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.defold.extensionrive
+04-05 13:39:41.670  3230  3392 V threaded_app: Config: mcc=310 mnc=260 lang=en cnt=US orien=2 touch=3 dens=440 keys=2 nav=1 keysHid=1 navHid=0 sdk=34 size=2 long=2 modetype=1 modenight=1
+04-05 13:39:41.676  3230  3392 V glfw-android: _glfwPreMain
+04-05 13:39:41.692  3230  3230 V threaded_app: Start: 0x76294ec946e0
+04-05 13:39:41.692  3230  3392 V threaded_app: activityState=10
+04-05 13:39:41.700  3230  3392 E ndk_translation: Undefined instruction 0xd50320bf at 0x00007627ead60cb0
+04-05 13:39:41.700  3230  3392 F libc    : Fatal signal 4 (SIGILL), code -6 (SI_TKILL) in tid 3392 (looper_main), pid 3230 (d.extensionrive)
+04-05 13:39:41.704  3230  3230 V threaded_app: Resume: 0x76294ec946e0
