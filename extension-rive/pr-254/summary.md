@@ -1,18 +1,6 @@
-# Rive Render Test
+✅ 2 passed ❌ 1 failed
 
-PR #254 run #24023375205 2026-04-06 07:42:21 UTC
+Full Report: [report](https://defold.github.io/test-reports/extension-rive/pr-254/index.html)
 
-**Overall:** ❌ FAIL
-
-## Totals
-
-| Platform | Passed | Failed |
-| --- | ---: | ---: |
-| wasm-web | 2 | 1 |
-| total | 2 | 1 |
-
-## Failed tests
-
-| Platform | Test | Fail types |
-| --- | --- | --- |
-| wasm-web | [Egg](https://defold.github.io/test-reports/extension-rive/pr-254/html5/egg/report/index.html) | ❌ Likeness |
+Failed tests:
+- [🌐](ci/rendertest/icons/html5.svg) wasm-web - Egg - ❌ Likeness
