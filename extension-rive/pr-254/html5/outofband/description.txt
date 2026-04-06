@@ -1,1 +1,0 @@
-This tests that we can replace assets at runtime (e.g font and image)
