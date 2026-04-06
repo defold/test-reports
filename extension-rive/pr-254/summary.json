@@ -1,18 +1,18 @@
 {
-  "pass_count": 2,
+  "pass_count": 3,
   "fail_count": 1,
-  "total_count": 3,
+  "total_count": 4,
   "platform_counts": [
     {
       "platform": "wasm-web",
       "label": "wasm-web",
-      "pass": 2,
+      "pass": 3,
       "fail": 1
     },
     {
       "platform": "__total__",
       "label": "total",
-      "pass": 2,
+      "pass": 3,
       "fail": 1
     }
   ]
