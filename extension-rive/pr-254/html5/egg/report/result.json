@@ -1,8 +1,8 @@
 {
   "metric": "RMSE",
-  "raw_output": "10564.4 (0.161202)",
-  "normalized_difference": 0.161202,
-  "likeness_percent": 83.87979999999999,
+  "raw_output": "10523.2 (0.160573)",
+  "normalized_difference": 0.160573,
+  "likeness_percent": 83.9427,
   "diff_image_name": "diff.png",
   "status": "fail",
   "likeness_threshold": 95.0
