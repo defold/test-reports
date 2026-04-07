@@ -1,0 +1,30 @@
+{
+  "mode": "direct",
+  "test_name": "Grimley",
+  "test_group": "grimley",
+  "collection": "/main/grimley/grimley.collectionc",
+  "platform": "wasm-web",
+  "description": "This is a test of rasterized images.",
+  "browser": "chrome",
+  "browser_executable": "/usr/bin/google-chrome",
+  "url": "http://127.0.0.1:18080/?key=bootstrap.main_collection&value=%2Fmain%2Fgrimley%2Fgrimley.collectionc",
+  "wait_mode": "signal",
+  "screenshot_path": "/home/runner/work/extension-rive/extension-rive/./build/render-tests/wasm-web/grimley/report/screenshot.png",
+  "captured_at": "2026-04-07T09:51:40.933Z",
+  "settle_ms": 500,
+  "startup_timeout_ms": 30000,
+  "engine_start_requested_at": 1775555498233,
+  "engine_first_update_at": 1775555498526,
+  "engine_take_screenshot_at": 1775555498526,
+  "engine_start_succeeded_at": 1775555498352,
+  "engine_start_log_prefix": "INFO:ENGINE: Defold Engine",
+  "engine_start_log_seen_at": 1775555498357,
+  "engine_start_duration_ms": -174,
+  "canvas": {
+    "x": 37.328125,
+    "y": 0,
+    "width": 885.328125,
+    "height": 498.171875,
+    "scale": 1
+  }
+}
