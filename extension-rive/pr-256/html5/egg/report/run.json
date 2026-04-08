@@ -1,0 +1,30 @@
+{
+  "mode": "direct",
+  "test_name": "Egg",
+  "test_group": "egg",
+  "collection": "/main/egg/egg.collectionc",
+  "platform": "wasm-web",
+  "description": "THis is a test of the feathering feature.",
+  "browser": "chrome",
+  "browser_executable": "/usr/bin/google-chrome",
+  "url": "http://127.0.0.1:47115/?key=bootstrap.main_collection&value=%2Fmain%2Fegg%2Fegg.collectionc",
+  "wait_mode": "signal",
+  "screenshot_path": "/home/runner/work/extension-rive/extension-rive/./build/render-tests/wasm-web/egg/report/screenshot.png",
+  "captured_at": "2026-04-08T17:02:16.684Z",
+  "settle_ms": 500,
+  "startup_timeout_ms": 30000,
+  "engine_start_requested_at": 1775667735517,
+  "engine_first_update_at": 1775667735815,
+  "engine_take_screenshot_at": 1775667735815,
+  "engine_start_succeeded_at": 1775667735639,
+  "engine_start_log_prefix": "INFO:ENGINE: Defold Engine",
+  "engine_start_log_seen_at": 1775667735644,
+  "engine_start_duration_ms": -176,
+  "canvas": {
+    "x": 37.328125,
+    "y": 0,
+    "width": 885.328125,
+    "height": 498.171875,
+    "scale": 1
+  }
+}
