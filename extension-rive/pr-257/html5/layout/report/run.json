@@ -1,0 +1,30 @@
+{
+  "mode": "direct",
+  "test_name": "Layout",
+  "test_group": "layout",
+  "collection": "/main/layout/layout.collectionc",
+  "platform": "wasm-web",
+  "description": "Tests dynamic layout of elements.",
+  "browser": "chrome",
+  "browser_executable": "/usr/bin/google-chrome",
+  "url": "http://127.0.0.1:36729/?key=bootstrap.main_collection&value=%2Fmain%2Flayout%2Flayout.collectionc",
+  "wait_mode": "timeout",
+  "screenshot_path": "/home/runner/work/extension-rive/extension-rive/./build/render-tests/wasm-web/layout/report/screenshot.png",
+  "captured_at": "2026-04-27T16:00:39.398Z",
+  "settle_ms": 500,
+  "startup_timeout_ms": 30000,
+  "engine_start_requested_at": 1777305638074,
+  "engine_first_update_at": null,
+  "engine_take_screenshot_at": null,
+  "engine_start_succeeded_at": 1777305638204,
+  "engine_start_log_prefix": "INFO:ENGINE: Defold Engine",
+  "engine_start_log_seen_at": 1777305638209,
+  "engine_start_duration_ms": 130,
+  "canvas": {
+    "x": 37.328125,
+    "y": 0,
+    "width": 885.328125,
+    "height": 498.171875,
+    "scale": 1
+  }
+}
