@@ -1,25 +1,23 @@
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /?key=bootstrap.main_collection&value=%2Fmain%2Fegg%2Fegg.collectionc HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /dmloader.js HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/archive_files.json HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /extensionrive_wasm.js HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/game0.projectc HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] code 404, message File not found
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /favicon.ico HTTP/1.1" 404 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/game0.arci HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /extensionrive_wasm.js HTTP/1.1" 304 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/game0.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/game2.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/game1.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/game3.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/game4.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /archive/game5.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /?key=bootstrap.main_collection&value=%2Fmain%2Fegg%2Fegg.collectionc HTTP/1.1" 304 -
-127.0.0.1 - - [06/May/2026 08:32:48] "GET /extensionrive.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:55] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:55] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:55] "GET /?key=bootstrap.main_collection&value=%2Fmain%2Fegg%2Fegg.collectionc HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:55] "GET /dmloader.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/archive_files.json HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game0.projectc HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /extensionrive_wasm.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] code 404, message File not found
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game0.arci HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game4.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game5.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game3.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game1.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game2.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game0.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /?key=bootstrap.main_collection&value=%2Fmain%2Fegg%2Fegg.collectionc HTTP/1.1" 304 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /extensionrive.wasm HTTP/1.1" 200 -
 ----------------------------------------
-Exception occurred during processing of request from ('127.0.0.1', 54806)
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /dmloader.js HTTP/1.1" 304 -
+Exception occurred during processing of request from ('127.0.0.1', 46146)
 Traceback (most recent call last):
   File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
     self.finish_request(request, client_address)
@@ -43,15 +41,11 @@ Traceback (most recent call last):
     self._sock.sendall(b)
 ConnectionResetError: [Errno 104] Connection reset by peer
 ----------------------------------------
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/archive_files.json HTTP/1.1" 304 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /extensionrive_wasm.js HTTP/1.1" 304 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game0.projectc HTTP/1.1" 304 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game0.arci HTTP/1.1" 304 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game1.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game0.arcd HTTP/1.1" 304 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game3.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game5.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game4.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game2.arcd HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /extensionrive.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2026 08:32:49] "GET /archive/game0.dmanifest HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /dmloader.js HTTP/1.1" 304 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game0.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game1.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game3.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game4.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game2.arcd HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /extensionrive.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2026 09:10:56] "GET /archive/game0.dmanifest HTTP/1.1" 200 -
