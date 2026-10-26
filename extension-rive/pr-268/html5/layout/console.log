@@ -1,158 +1,158 @@
-2026-10-26T19:49:29.023Z [log] Running... (http://127.0.0.1:60139/dmloader.js:1042:40)
-2026-10-26T19:49:29.031Z [log]  (http://127.0.0.1:60139/dmloader.js:1042:40)
-2026-10-26T19:49:29.037Z [log] INFO:DLIB: Log server started on port 0
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.039Z [log] INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.039Z [log] INFO:ENGINE: Defold Engine 1.14.0 (d295ed4)
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.042Z [log] %c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0; (http://127.0.0.1:60139/extensionrive_wasm.js:0:276709)
-2026-10-26T19:49:29.042Z [log] INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.062Z [log] INFO:GRAPHICS: Checking ASTC Array support. May produce GL error.
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.064Z [log] INFO:GRAPHICS: Device: OpenGL
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.067Z [log] INFO:GRAPHICS: Renderer: WebKit WebGL
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.067Z [log] INFO:GRAPHICS: Version: OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.068Z [log] INFO:GRAPHICS: Vendor: WebKit
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.068Z [log] INFO:GRAPHICS: Extensions:
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.068Z [log] INFO:GRAPHICS:   EXT_clip_control
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.068Z [log] INFO:GRAPHICS:   EXT_color_buffer_float
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.068Z [log] INFO:GRAPHICS:   EXT_color_buffer_half_float
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.068Z [log] INFO:GRAPHICS:   EXT_conservative_depth
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.070Z [log] INFO:GRAPHICS:   EXT_depth_clamp
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.070Z [log] INFO:GRAPHICS:   EXT_float_blend
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.070Z [log] INFO:GRAPHICS:   EXT_polygon_offset_clamp
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.070Z [log] INFO:GRAPHICS:   EXT_texture_compression_bptc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.071Z [log] INFO:GRAPHICS:   EXT_texture_compression_rgtc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.071Z [log] INFO:GRAPHICS:   EXT_texture_filter_anisotropic
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.071Z [log] INFO:GRAPHICS:   NV_shader_noperspective_interpolation
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.071Z [log] INFO:GRAPHICS:   OES_texture_float_linear
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.071Z [log] INFO:GRAPHICS:   WEBGL_clip_cull_distance
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.071Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_astc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.072Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_etc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.072Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_etc1
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.072Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_s3tc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.072Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_s3tc_srgb
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.073Z [log] INFO:GRAPHICS:   WEBGL_debug_renderer_info
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.073Z [log] INFO:GRAPHICS:   WEBGL_debug_shaders
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.073Z [log] INFO:GRAPHICS:   WEBGL_lose_context
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.073Z [log] INFO:GRAPHICS:   WEBGL_multi_draw
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.074Z [log] INFO:GRAPHICS:   WEBGL_polygon_mode
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.074Z [log] INFO:GRAPHICS:   GL_EXT_clip_control
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.074Z [log] INFO:GRAPHICS:   GL_EXT_color_buffer_float
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.074Z [log] INFO:GRAPHICS:   GL_EXT_color_buffer_half_float
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.074Z [log] INFO:GRAPHICS:   GL_EXT_conservative_depth
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.074Z [log] INFO:GRAPHICS:   GL_EXT_depth_clamp
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.074Z [log] INFO:GRAPHICS:   GL_EXT_float_blend
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.074Z [log] INFO:GRAPHICS:   GL_EXT_polygon_offset_clamp
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.075Z [log] INFO:GRAPHICS:   GL_EXT_texture_compression_bptc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.075Z [log] INFO:GRAPHICS:   GL_EXT_texture_compression_rgtc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.075Z [log] INFO:GRAPHICS:   GL_EXT_texture_filter_anisotropic
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.075Z [log] INFO:GRAPHICS:   GL_NV_shader_noperspective_interpolation
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.075Z [log] INFO:GRAPHICS:   GL_OES_texture_float_linear
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.075Z [log] INFO:GRAPHICS:   GL_WEBGL_clip_cull_distance
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.076Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_astc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.076Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_etc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.076Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_etc1
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.076Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_s3tc
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.076Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_s3tc_srgb
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.076Z [log] INFO:GRAPHICS:   GL_WEBGL_debug_renderer_info
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.076Z [log] INFO:GRAPHICS:   GL_WEBGL_debug_shaders
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.077Z [log] INFO:GRAPHICS:   GL_WEBGL_lose_context
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.078Z [log] INFO:GRAPHICS:   GL_WEBGL_multi_draw
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.078Z [log] INFO:GRAPHICS:   GL_WEBGL_polygon_mode
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.078Z [log] INFO:GRAPHICS: Context features:
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.078Z [log] INFO:GRAPHICS:   CONTEXT_FEATURE_MULTI_TARGET_RENDERING
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.078Z [log] INFO:GRAPHICS:   CONTEXT_FEATURE_TEXTURE_ARRAY
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.078Z [log] INFO:ENGINE: Loading data from: archive:game.dmanifest
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.079Z [log] WARNING:RIVEEXT: dmExtension::GetContextAsType is deprecated. Use ExtensionParamsGetContextRegistry and the context registry API directly instead.
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.079Z [log] INFO:RIVEEXT: Registered Rive extension:  2026-07-07T02:55:46Z - runtime-v0.1.159 - 9fc99964cf20e99b3d5a347a8c03c62195cb04a1
+2026-10-26T20:05:31.664Z [log] Running... (http://127.0.0.1:52673/dmloader.js:1042:40)
+2026-10-26T20:05:31.669Z [log]  (http://127.0.0.1:52673/dmloader.js:1042:40)
+2026-10-26T20:05:31.678Z [log] INFO:DLIB: Log server started on port 0
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.679Z [log] INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.679Z [log] INFO:ENGINE: Defold Engine 1.14.0 (d295ed4)
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.683Z [log] %c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0; (http://127.0.0.1:52673/extensionrive_wasm.js:0:276709)
+2026-10-26T20:05:31.683Z [log] INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.705Z [log] INFO:GRAPHICS: Checking ASTC Array support. May produce GL error.
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.708Z [log] INFO:GRAPHICS: Device: OpenGL
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.709Z [log] INFO:GRAPHICS: Renderer: WebKit WebGL
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.709Z [log] INFO:GRAPHICS: Version: OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.710Z [log] INFO:GRAPHICS: Vendor: WebKit
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.710Z [log] INFO:GRAPHICS: Extensions:
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.711Z [log] INFO:GRAPHICS:   EXT_clip_control
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.711Z [log] INFO:GRAPHICS:   EXT_color_buffer_float
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.712Z [log] INFO:GRAPHICS:   EXT_color_buffer_half_float
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.713Z [log] INFO:GRAPHICS:   EXT_conservative_depth
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.713Z [log] INFO:GRAPHICS:   EXT_depth_clamp
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.714Z [log] INFO:GRAPHICS:   EXT_float_blend
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.717Z [log] INFO:GRAPHICS:   EXT_polygon_offset_clamp
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.717Z [log] INFO:GRAPHICS:   EXT_texture_compression_bptc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.717Z [log] INFO:GRAPHICS:   EXT_texture_compression_rgtc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.717Z [log] INFO:GRAPHICS:   EXT_texture_filter_anisotropic
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.717Z [log] INFO:GRAPHICS:   NV_shader_noperspective_interpolation
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.719Z [log] INFO:GRAPHICS:   OES_texture_float_linear
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.720Z [log] INFO:GRAPHICS:   WEBGL_clip_cull_distance
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.720Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_astc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.720Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_etc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.720Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_etc1
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.721Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_s3tc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.721Z [log] INFO:GRAPHICS:   WEBGL_compressed_texture_s3tc_srgb
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.721Z [log] INFO:GRAPHICS:   WEBGL_debug_renderer_info
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.721Z [log] INFO:GRAPHICS:   WEBGL_debug_shaders
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.723Z [log] INFO:GRAPHICS:   WEBGL_lose_context
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.723Z [log] INFO:GRAPHICS:   WEBGL_multi_draw
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.724Z [log] INFO:GRAPHICS:   WEBGL_polygon_mode
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.724Z [log] INFO:GRAPHICS:   GL_EXT_clip_control
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.724Z [log] INFO:GRAPHICS:   GL_EXT_color_buffer_float
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.724Z [log] INFO:GRAPHICS:   GL_EXT_color_buffer_half_float
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.725Z [log] INFO:GRAPHICS:   GL_EXT_conservative_depth
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.725Z [log] INFO:GRAPHICS:   GL_EXT_depth_clamp
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.725Z [log] INFO:GRAPHICS:   GL_EXT_float_blend
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.725Z [log] INFO:GRAPHICS:   GL_EXT_polygon_offset_clamp
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.725Z [log] INFO:GRAPHICS:   GL_EXT_texture_compression_bptc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.726Z [log] INFO:GRAPHICS:   GL_EXT_texture_compression_rgtc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.727Z [log] INFO:GRAPHICS:   GL_EXT_texture_filter_anisotropic
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.729Z [log] INFO:GRAPHICS:   GL_NV_shader_noperspective_interpolation
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.729Z [log] INFO:GRAPHICS:   GL_OES_texture_float_linear
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.730Z [log] INFO:GRAPHICS:   GL_WEBGL_clip_cull_distance
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.732Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_astc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.733Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_etc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.733Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_etc1
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.733Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_s3tc
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.733Z [log] INFO:GRAPHICS:   GL_WEBGL_compressed_texture_s3tc_srgb
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.736Z [log] INFO:GRAPHICS:   GL_WEBGL_debug_renderer_info
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.737Z [log] INFO:GRAPHICS:   GL_WEBGL_debug_shaders
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.737Z [log] INFO:GRAPHICS:   GL_WEBGL_lose_context
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.737Z [log] INFO:GRAPHICS:   GL_WEBGL_multi_draw
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.737Z [log] INFO:GRAPHICS:   GL_WEBGL_polygon_mode
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.737Z [log] INFO:GRAPHICS: Context features:
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.738Z [log] INFO:GRAPHICS:   CONTEXT_FEATURE_MULTI_TARGET_RENDERING
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.738Z [log] INFO:GRAPHICS:   CONTEXT_FEATURE_TEXTURE_ARRAY
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.738Z [log] INFO:ENGINE: Loading data from: archive:game.dmanifest
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.738Z [log] WARNING:RIVEEXT: dmExtension::GetContextAsType is deprecated. Use ExtensionParamsGetContextRegistry and the context registry API directly instead.
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.738Z [log] INFO:RIVEEXT: Registered Rive extension:  2026-07-07T02:55:46Z - runtime-v0.1.159 - 9fc99964cf20e99b3d5a347a8c03c62195cb04a1
 
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.117Z [log] INFO:SOUND: Info
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.117Z [log] INFO:SOUND:   nSamplesPerSec:   48000
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.117Z [log] INFO:SOUND:   DSP backend: Fallback
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.117Z [log] INFO:SOUND: Sound
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.117Z [log] INFO:SOUND:   nSamplesPerSec:   48000
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.118Z [log] INFO:SOUND:        useThread:   0
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.118Z [log] INFO:ENGINE: Initialised sound device 'default'
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.126Z [log] INFO:PHYSICS: Created physics context: Box2D v2.2.1
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.126Z [log] INFO:RIVEEXT: Rive detected Defold graphics adapter: opengl (2)
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.127Z [log] INFO:RIVEEXT: ==== GL GPU: WebKit WebGL ====
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.766Z [log] INFO:SOUND: Info
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.768Z [log] INFO:SOUND:   nSamplesPerSec:   48000
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.768Z [log] INFO:SOUND:   DSP backend: Fallback
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.769Z [log] INFO:SOUND: Sound
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.769Z [log] INFO:SOUND:   nSamplesPerSec:   48000
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.769Z [log] INFO:SOUND:        useThread:   0
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.769Z [log] INFO:ENGINE: Initialised sound device 'default'
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.778Z [log] INFO:PHYSICS: Created physics context: Box2D v2.2.1
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.784Z [log] INFO:RIVEEXT: Rive detected Defold graphics adapter: opengl (2)
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.785Z [log] INFO:RIVEEXT: ==== GL GPU: WebKit WebGL ====
 
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.148Z [log] INFO:RIVEEXT: Render to texture enabled
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.150Z [log] INFO:RIVEEXT: Display Factor: 1
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.164Z [log] WARNING:RIVEEXT: The atlas property is deprected and ignored (/main/layout/layout.rivescenec): '/defold-rive/assets/empty.a.texturesetc'
- (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.199Z [log] Rive: Command Server Scripting Enabled. (http://127.0.0.1:60139/dmloader.js:1039:36)
-2026-10-26T19:49:29.232Z [log] INFO:RIVEEXT: Change size to 885, 498
- (http://127.0.0.1:60139/dmloader.js:1039:36)
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.814Z [log] INFO:RIVEEXT: Render to texture enabled
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.814Z [log] INFO:RIVEEXT: Display Factor: 1
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.835Z [log] WARNING:RIVEEXT: The atlas property is deprected and ignored (/main/layout/layout.rivescenec): '/defold-rive/assets/empty.a.texturesetc'
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.870Z [log] Rive: Command Server Scripting Enabled. (http://127.0.0.1:52673/dmloader.js:1039:36)
+2026-10-26T20:05:31.909Z [log] INFO:RIVEEXT: Change size to 885, 498
+ (http://127.0.0.1:52673/dmloader.js:1039:36)
